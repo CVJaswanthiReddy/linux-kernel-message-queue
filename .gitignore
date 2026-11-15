@@ -1,0 +1,28 @@
+# Kernel build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.symvers
+Module.symvers
+modules.order
+.*.cmd
+.tmp_versions/
+
+# User-space compiled executables
+user/writer
+user/reader
+user/open_close_test
+user/wraparound_test
+user/partial_copy_test
+user/blocking_write_test
+user/blocking_second_writer
+user/nonblocking_write_test
+user/fill_queue
+user/fill_queue.
+user/poll_test
+user/ioctl_test
+user/ioctl_clear_test
+
+# Test logs
+*.log
